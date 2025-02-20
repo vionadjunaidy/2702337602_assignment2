@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Girly Poppers Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav nav-tabs">
+              <li class="nav-item"><a class="nav-link" href="viona.html">Viona</a></li>
+              <li class="nav-item"><a class="nav-link" href="oneal.html">Oneal</a></li>
+              <li class="nav-item"><a class="nav-link" href="nadine.html">Nadine</a></li>
+              <li class="nav-item"><a class="nav-link" href="abel.html">Abel</a></li>
+            </ul>
+          </div>
+          <button id="pinkModeToggle" class="btn btn-pink" onclick="togglePinkMode()">💖 Pink Mode</button>
+        </div>
+    </nav>
+
+    <div class="container mt-5 text-center">
+        <h1>Welcome to The Girly Popper Members Portfolio!</h1>
+        <p class="typing">Meet our amazing team and explore our project.</p>
+    
+        <button id="factGenerator" class="btn btn-primary mt-4" onclick="showRandomFact()">🎲 Generate a Fun Fact</button>
+        <p id="fact" class="mt-3"></p>
+    
+        <!-- Project Description Card -->
+        <div class="card mt-4 shadow-lg">
+            <div class="card-body">
+                <h5 class="card-title"> About Our Project</h5>
+                <p class="card-text">
+                    Our project focuses on creating a dynamic, secure, and interactive help desk and ticketing system. This project is going to showcase our skills in developing and designing a web application. 
+                    Each member contributes their unique skills to ensure an interactive and engaging user experience.
+                </p>
+            </div>
+        </div>
+    </div>    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
